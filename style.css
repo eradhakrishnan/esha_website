@@ -1,0 +1,246 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lato:200,700|Montserrat:400,500|Quicksand:500');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat:400,500|Quicksand:500');
+/*  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;*/
+
+
+
+.experiences {
+  background-color: #031D33;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 120%;
+}
+
+.exp-image {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+.exp-image img {
+  width: 75px;
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+}
+
+.exp {
+  padding-bottom: 20px;
+}
+
+.heavy-exp {
+  font-weight: 700;
+}
+
+.exp-text {
+  color: white;
+  padding-left: 100px;
+  margin-top: -10px;
+  text-align: left;
+  font-family: 'Lato';
+  font-weight: 200;
+}
+
+.projects {
+  background-color: #f4f5f9;
+  text-align: center;
+  color: #252c41;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.proj-image {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: white;
+  overflow: hidden;
+  /*border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);*/
+}
+
+.proj-card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);*/
+}
+.proj-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+.skills {
+  background-color: #EA4141;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.panel {
+  color: #031D33;
+}
+
+.awards {
+  background-color: #4ea1d3;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  text-decoration: none;
+
+}
+
+.locations {
+  background-color: #3ac569;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.loc {
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  margin: auto;
+}
+
+.loc img {
+  width: 75px;
+  height: 75px;
+}
+
+.research {
+  background-color: #383A3F;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.research-info {
+  text-align: left;
+  font-family: 'Lato';
+  font-weight: 200;
+}
+
+.research-info h6 {
+  line-height: 1.4;
+}
+
+.header {
+  height: 500px;
+  background-color: #232741;
+  margin-top: -50px;
+}
+
+.header-content {
+  top: 100px;
+  position: relative;
+  z-index: 9999;
+  color: white;
+  text-align: center;
+  font-family: 'Quicksand';
+  font-weight: 700;
+}
+
+@media only screen and (max-width : 999px) {
+  .header-content h1 {
+      font-size: 45px;
+  }
+
+  .head-text p {
+    padding-left: -10px;
+    padding-right: -10px;
+  }
+}
+
+@media only screen and (min-width : 1000px) {
+  .header-content h1 {
+      font-size: 65px;
+  }
+
+  .head-text p {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media only screen and (max-width : 515px) {
+  .header canvas {
+    height: 95% !important;
+    margin-top: -280px;
+  }
+}
+
+@media only screen and (min-width : 516px) {
+  .header canvas {
+    height: 95% !important;
+    margin-top: -250px;
+  }
+}
+
+.header canvas {
+  z-index: -999;
+}
+.social {
+  padding-top: 10px;
+}
+
+.soc-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  display: inline;
+  opacity: 0.8;
+}
+
+.soc-icon:hover {
+  opacity: 1;
+}
+
+.link-proj {
+  color: white;
+}
+
+.link-proj, .link-proj:hover, .link-proj:active, .link-proj:visited { color: white; }
+
+::-webkit-scrollbar {
+      width: 5px;
+}
+
+::-webkit-scrollbar-track {
+      background-color: white;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      background-color: #C5C5C5;
+} /* this will style the thumb, ignoring the track */
+
+/*::-webkit-scrollbar-button {
+      background-color: #7c2929;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+/*::-webkit-scrollbar-corner {
+      background-color: black;
+}*/
+/*tr:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color: #4ea1d3;
+  background-color: white;
+}*/
